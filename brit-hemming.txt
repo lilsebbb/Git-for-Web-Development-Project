@@ -1,6 +1,7 @@
 Link to finished codepen https://codepen.io/BritHemming/pen/vYJmxVJ?editors=1100
 
     1. What is Semantic HTML? 
+    it is html that gives meaning to our markup for machines and screen reader
     2. What is HTML used for? 
     3. What is an attribute and where do we put it? 
     4. What is the h1 tag used for? How many times should I use it on a page?
