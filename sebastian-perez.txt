@@ -1,0 +1,178 @@
+https://codepen.io/lilsebbb/pen/eYGmmRR?editors=1100
+
+
+    1. What is Semantic HTML? 
+
+Basically it's righting your html code using specific tags so the code looks cleaner and automatic website readers can read it clearly.
+
+    2. What is HTML used for? 
+
+To write the code for a website
+
+    3. What is an attribute and where do we put it?
+
+we put attributes inside the opening tags of whatever we're trying to code and it tells the computer which 'attributes' it should give the text inside the tags.
+
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+
+it is used for a title and we should usually only use it once as the header of the page.
+
+    5. Name two tags that have required attributes
+
+img 
+link
+
+    6. What do we put in the head of our HTML document? 
+
+links to whatever sources we need (like css or fonts)
+title
+
+
+    7. What is an id? 
+
+its like a class but can only be used once
+
+    8. What elements can I add an id to? 
+
+any
+
+    9. How many times can I use the same id on a page? 
+
+once
+
+    10. What is a class? 
+
+a way to put a specific element into one class so we can add css to it
+
+    11. What elements can I add a class to? 
+
+any
+
+    12. How many times can I use the same class on a page? 
+
+unlimited
+
+    13. How do I get my link to open in a new tab?
+
+target=”_blank”
+
+    14. What is the alt attribute in the image tag used for? 
+
+for line readers when they can't see the image
+
+    15. How do I reference an id?
+
+with the pund symbol '#'
+
+    16. What is the difference between a section and a div
+
+section is semantic so you can't use it to style css unless you have a div inside
+
+    17. What is CSS used for? 
+
+to make the website look pretty and to configure for different sized screens
+
+    18. How to we select an element? Example - every h2 on the page
+
+h2{
+
+}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+you can use an id when giving a specific css to an image or something youre only going to use once
+and you use a class when youre probably going to give that same css code to many objects in your html
+
+
+    20. How do we select classes in CSS?
+
+.whateverClass{
+
+}
+
+    21. How do we select a p element with a single class of “human””?
+
+p .human{
+
+}
+
+    22. What is a parent child selector? When would this be useful? 
+
+it is when you specifically select an element inside of another element, like if i had a <p> inside of a <p>
+and i only wanted to select <p>'s inside of <div>'s I would do
+div p{
+
+}
+
+    23. How do you select all links within a div with the class of sidebar?
+link .sidebar{
+
+}
+    24. What is a pseudo selector?
+
+
+
+    25. What do we use the change the spacing between lines?
+
+line-height: ;
+
+    26. What do we use to change the spacing between letters? 
+
+letter-spacing: ;
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    28. How do I add a 1px border around my div that is dotted and black?
+
+div{
+    border: dotted 1px black;
+}
+
+    29. How do I select everything on the page? 
+
+html{
+    
+}
+
+    30. How do I write a comment in CSS?
+
+/* whatever you want */
+
+    31. How do I find out what file I am in, when I am using the command line? 
+
+pwd
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+
+ls
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    34. Why should I use version control? 
+    35. How often should I commit to github?
+
+every time you get something major working
+
+    36. What is the command we would use to push our repo up to github? 
+
+git push -u origin branchName
+
+    37. Walk me through Lambda's git flow. 
+
+    We first get the repository from github and fork it, we then copy our fork onto our clipboard
+    we then open git bash to where we want to put the file and type 'git clone whatever the url is'
+    finally we cd into that file and type code . to open vs code
+    finally we type git add . and git commit -m 'whatever message' when we want to save
+    and last but not least we hit them with the classic git push -u origin branchName so it saves to github
+    if we're confident with that save we create a pull request.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+
+
+   --> 
